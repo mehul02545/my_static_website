@@ -5,7 +5,6 @@
  }
 
 
-
  body{
    width: 100vw;
    height: 100vh;
@@ -13,29 +12,52 @@
  
  }
 
+ p{
+  font-size: 25px;
+  padding: 25px;
+ }
 
 
  h2{
    color: #fff;
  }
+
+
+ h3{
+  color: black;
+  font-size: 20px;
+ }
  
+
  
- .head , .nav , .aside , .main ,  .footer{
+ .head, .nav , .aside , .main ,  .footer{
    position: absolute;
    display: grid;
    place-items: center;
  }
  
+
  .head{
    top: 0;
    left: 0;
    right: 0;
-   width: 25px;
-   height: 20px;
-   background: #bbe4e9;
- 
- 
+   width: 50px;
+   height: 77px;
  }
+
+
+ .logo_container{
+  top: 0;
+  padding-left: 80px;
+  color: black;
+  height: 77px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 32px;
+
+ }
+
+
  .nav{
    left: 0;
    top: 10%;
@@ -44,6 +66,7 @@
    background: #79c2d0;
  }
 
+
  .nav li{
   list-style: none;
   font-size: 30px;
@@ -51,10 +74,8 @@
  }
 
 
-
  .nav li a{
   text-decoration: none;
-
  }
 
 
@@ -79,7 +100,6 @@
  }
 
 
-
  .footer{
    bottom: 0;
    left: 0;
@@ -87,3 +107,6 @@
    background: white;
    height: 10%;
  }
+
+
+ 
