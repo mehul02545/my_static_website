@@ -35,6 +35,11 @@
    display: grid;
    place-items: center;
  }
+
+
+ img{
+  border-radius: 20%;
+ }
  
 
  .head{
@@ -48,16 +53,16 @@
 
  .logo_container{
   top: 0;
-  padding-left: 80px;
+  padding-left: 110px;
   color: black;
-  height: 77px;
+  height: 75px;
   display: table-cell;
   vertical-align: middle;
   font-size: 32px;
 
  }
 
-
+ 
  .nav{
    left: 0;
    top: 10%;
